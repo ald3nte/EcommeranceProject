@@ -36,12 +36,18 @@ namespace EcommeranceWebApp.Repositories
 
         public async Task<IEnumerable<Product>> GetProductList(string sort=null)
         {
+            var query = _appDbContext.Set<Product>()
+                    .Include(c => c.ProductFotos)
+                    .Include(c => c.ProductDefinition);
 
-            return await _appDbContext.Set<Product>()
-                    .Include(c=> c.ProductFotos)
-                    .Include(c=> c.ProductDefinition)
-                    .OrderByDescending(u => u.CreatedAt)
-                    .ToListAsync();
+            if (sort == "price")
+                return await query.OrderByDescending(u => u.Price).ToListAsync();
+            else if(sort == "name")
+                return await query.OrderByDescending(u => u.ProductDefinition.Name).ToListAsync();
+            else
+                return await query.OrderByDescending(c => c.CreatedAt).ToListAsync();
+
         }
+
     }
 }
