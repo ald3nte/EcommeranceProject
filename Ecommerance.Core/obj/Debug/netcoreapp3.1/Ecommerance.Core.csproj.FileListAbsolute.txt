@@ -1,0 +1,9 @@
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Core\bin\Debug\netcoreapp3.1\Ecommerance.Core.deps.json
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Core\bin\Debug\netcoreapp3.1\Ecommerance.Core.dll
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Core\bin\Debug\netcoreapp3.1\Ecommerance.Core.pdb
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Core\obj\Debug\netcoreapp3.1\Ecommerance.Core.csprojAssemblyReference.cache
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Core\obj\Debug\netcoreapp3.1\Ecommerance.Core.AssemblyInfoInputs.cache
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Core\obj\Debug\netcoreapp3.1\Ecommerance.Core.AssemblyInfo.cs
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Core\obj\Debug\netcoreapp3.1\Ecommerance.Core.dll
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Core\obj\Debug\netcoreapp3.1\Ecommerance.Core.pdb
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Core\obj\Debug\netcoreapp3.1\Ecommerance.Core.csproj.CoreCompileInputs.cache

@@ -1,0 +1,164 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sjsha\\Documents\\Project\\EcommeranceProject\\Ecommerance.Infrastucture\\Ecommerance.Infrastucture.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sjsha\\Documents\\Project\\EcommeranceProject\\Ecommerance.Core\\Ecommerance.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sjsha\\Documents\\Project\\EcommeranceProject\\Ecommerance.Core\\Ecommerance.Core.csproj",
+        "projectName": "Ecommerance.Core",
+        "projectPath": "C:\\Users\\sjsha\\Documents\\Project\\EcommeranceProject\\Ecommerance.Core\\Ecommerance.Core.csproj",
+        "packagesPath": "C:\\Users\\sjsha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sjsha\\Documents\\Project\\EcommeranceProject\\Ecommerance.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sjsha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "NSwag.Core": {
+              "target": "Package",
+              "version": "[13.7.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sjsha\\Documents\\Project\\EcommeranceProject\\Ecommerance.Infrastucture\\Ecommerance.Infrastucture.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sjsha\\Documents\\Project\\EcommeranceProject\\Ecommerance.Infrastucture\\Ecommerance.Infrastucture.csproj",
+        "projectName": "Ecommerance.Infrastucture",
+        "projectPath": "C:\\Users\\sjsha\\Documents\\Project\\EcommeranceProject\\Ecommerance.Infrastucture\\Ecommerance.Infrastucture.csproj",
+        "packagesPath": "C:\\Users\\sjsha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sjsha\\Documents\\Project\\EcommeranceProject\\Ecommerance.Infrastucture\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sjsha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\sjsha\\Documents\\Project\\EcommeranceProject\\Ecommerance.Core\\Ecommerance.Core.csproj": {
+                "projectPath": "C:\\Users\\sjsha\\Documents\\Project\\EcommeranceProject\\Ecommerance.Core\\Ecommerance.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "NSwag.Core": {
+              "target": "Package",
+              "version": "[13.7.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

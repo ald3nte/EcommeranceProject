@@ -1,0 +1,88 @@
+﻿@model ProductDescriptionViewModel
+<!-- Page Add Section Begin -->
+<section class="page-add">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="page-breadcrumb">
+                    <h2>Shirts<span>.</span></h2>
+                    <a href="#">Home</a>
+                    <a class="active" href="#"></a>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <img src="~/img/add.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Page Add Section End -->
+<!-- Product Page Section Beign -->
+<section class="product-page">
+    <div class="container">
+        <div class="product-control">
+            <a href="#">Previous</a>
+            <a href="#">Next</a>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="product-slider owl-carousel">
+                    @if (Model.Product.ProductFotosDTO != null)
+                    {
+                    @foreach (var ProductFoto in Model.Product.ProductFotosDTO)
+                    {
+        <div class="product-img">
+
+            <img src="@ProductFoto.FotoUrl" alt="@ProductFoto.Description">
+
+            @if (@Model.Product.CreatedAt > @DateTime.Now.AddDays(-7))
+            {
+            <div class="p-status">
+             <figure>
+                New
+             </figure>
+            </div>
+            }
+        </div>
+                    }
+                    }
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="product-content">
+                    <h2>@Model.Product.Name</h2>
+                    <div class="pc-meta">
+                        <h5>@Model.Product.Price zł</h5>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+                    <p>
+                        @Html.Raw(@Model.Product.Description)
+                    </p>
+                    <ul class="tags">
+                        <li><span>Collection :</span> @Model.Product.Collection</li>
+                        <li><span>Mark :</span> @Model.Product.Mark</li>
+                    </ul>
+                    <div class="product-quantity">
+                        <div class="pro-qty">
+                            <input type="text" value="1" max="@Model.Product.Quantity">
+                        </div>
+                    </div>
+                    <a href="#" class="primary-btn pc-btn">Add to cart</a>
+                    <ul class="p-info">
+                        <li>Product Information</li>
+                        <li>Reviews</li>
+                        <li>Product Care</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Product Page Section End -->
+@await Component.InvokeAsync("RecentProduct")

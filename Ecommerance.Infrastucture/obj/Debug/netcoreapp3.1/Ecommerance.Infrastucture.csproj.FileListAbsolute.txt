@@ -1,0 +1,15 @@
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Infrastucture\bin\Debug\netcoreapp3.1\Ecommerance.Infrastucture.deps.json
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Infrastucture\bin\Debug\netcoreapp3.1\Ecommerance.Infrastucture.dll
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Infrastucture\bin\Debug\netcoreapp3.1\Ecommerance.Infrastucture.pdb
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Infrastucture\bin\Debug\netcoreapp3.1\Ecommerance.Core.dll
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Infrastucture\bin\Debug\netcoreapp3.1\Ecommerance.Core.pdb
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Infrastucture\obj\Debug\netcoreapp3.1\Ecommerance.Infrastucture.csprojAssemblyReference.cache
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Infrastucture\obj\Debug\netcoreapp3.1\Ecommerance.Infrastucture.AssemblyInfoInputs.cache
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Infrastucture\obj\Debug\netcoreapp3.1\Ecommerance.Infrastucture.AssemblyInfo.cs
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Infrastucture\obj\Debug\netcoreapp3.1\Ecommerance.Infrastucture.csproj.CopyComplete
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Infrastucture\obj\Debug\netcoreapp3.1\Ecommerance.Infrastucture.dll
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Infrastucture\obj\Debug\netcoreapp3.1\Ecommerance.Infrastucture.pdb
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Infrastucture\bin\Debug\netcoreapp3.1\Ecommerance.Infrastucture.runtimeconfig.json
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Infrastucture\bin\Debug\netcoreapp3.1\Ecommerance.Infrastucture.runtimeconfig.dev.json
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Infrastucture\obj\Debug\netcoreapp3.1\Ecommerance.Infrastucture.genruntimeconfig.cache
+C:\Users\sjsha\Documents\Project\EcommeranceProject\Ecommerance.Infrastucture\obj\Debug\netcoreapp3.1\Ecommerance.Infrastucture.csproj.CoreCompileInputs.cache

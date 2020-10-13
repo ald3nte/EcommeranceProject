@@ -1,0 +1,35 @@
+﻿@model IEnumerable<ProductDetailsDTO>
+    <!-- Related Product Section Begin -->
+    <section class="related-product spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-title">
+                        <h2>Related Products</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                @foreach (var product in Model)
+                {
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-product-item">
+                        <figure>
+                            <a asp-controller="Product" asp-action="ProductPage" asp-route-productGUID="@product.Id"><img src="@product.ProductFotosDTO.FirstOrDefault().FotoUrl" alt=""></a>
+                            @if (product.CreatedAt > @DateTime.Now.AddDays(-7))
+                            {
+                                <div class="p-status">new</div>
+                            }
+                            </figure>
+                        <div class="product-text">
+                            <h6>@product.Name</h6>
+                            <p>@product.Price zł</p>
+                        </div>
+                    </div>
+                </div>
+                }
+            </div>
+        </div>
+    </section>
+    <!-- Related Product Section End -->
